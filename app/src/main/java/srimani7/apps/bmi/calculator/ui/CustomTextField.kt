@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package srimani7.apps.dailyui.bmi
+package srimani7.apps.bmi.calculator.ui
 
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
@@ -13,7 +13,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 
 @Composable
-fun CustomTextField(state: ValueState,imeAction: ImeAction, onValueChange: (String) -> Unit, ) {
+fun CustomTextField(state: ValueState, imeAction: ImeAction, onValueChange: (String) -> Unit, ) {
     val focusManager = LocalFocusManager.current
     OutlinedTextField(
         value = state.value,

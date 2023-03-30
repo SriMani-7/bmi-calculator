@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace 'srimani7.apps.dailyui'
+    namespace 'srimani7.apps.bmi.calculator'
     compileSdk 33
 
     defaultConfig {
-        applicationId "srimani7.apps.dailyui"
-        minSdk 24
+        applicationId "srimani7.apps.bmi.calculator"
+        minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"

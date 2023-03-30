@@ -1,9 +1,10 @@
-package srimani7.apps.dailyui.bmi
+package srimani7.apps.bmi.calculator
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import srimani7.apps.bmi.calculator.ui.ValueState
 
 class BmiViewModel : ViewModel() {
     var bmi by mutableStateOf(0.0)
@@ -66,6 +67,8 @@ class BmiViewModel : ViewModel() {
     fun clear() {
         heightState = heightState.copy(value = "", error = null)
         weightState = weightState.copy(value = "", error = null)
+        bmi = 0.0
+        message = ""
     }
 
     enum class Mode { Imperial, Metric }
