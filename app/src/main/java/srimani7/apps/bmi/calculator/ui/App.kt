@@ -14,6 +14,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import srimani7.apps.bmi.calculator.BmiViewModel
 import srimani7.apps.bmi.calculator.format
@@ -95,9 +96,9 @@ fun RowScope.ActionButton(text: String, onClick: () -> Unit) {
         onClick = { focusManager.clearFocus(); onClick() },
         shape = RoundedCornerShape(8.dp),
         modifier = Modifier.weight(1f),
-        contentPadding = PaddingValues(18.dp)
+        contentPadding = PaddingValues(14.dp)
     ) {
-        Text(text)
+        Text(text, fontSize = 15.sp)
     }
 }
 
