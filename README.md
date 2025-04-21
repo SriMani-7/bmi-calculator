@@ -1,5 +1,7 @@
 # Bmi Calculator 📏
-![Banner image](arts/banner.webp)
+<p align="center">
+<img src="arts/banner.webp" align="center" style="maxHeight:400px"></img>
+</p>
 
 This is a simple Android application that calculates the Body Mass Index (BMI) of a user based on their height and weight. It was built using Jetpack Compose and Material3 design system.
 
@@ -24,6 +26,12 @@ To run this project, follow these steps
 1. Download / Clone this repository.
 2. Import project into Android Studio.
 3. Build and run the app.
+
+Here the brakedown diagram
+
+<p align="center">
+<img src="arts/bmi diagram.png" align="center" style="maxHeight:400px"></img>
+</p>
 
 ## License
 
